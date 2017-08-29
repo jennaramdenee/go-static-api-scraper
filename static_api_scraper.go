@@ -28,12 +28,13 @@ func runScraper() {
     // 3.Find the name of the folder by taking everything before ?
     folderName := strings.Split(linkName, "?")[0]
 
+    // 4. Create folder if it doesn't already exist
     if checkIfExists(folderName) == true {
-      // 4. Create folder
       err := os.Mkdir(folderName, os.ModePerm)
       catchError(err, "Cannot create folder")
     }
 
+    // If file does not exist..
     // 5. Create file within that folder called "index"
     fileName := filepath.Join(folderName, "index")
     var file *os.File
@@ -60,7 +61,7 @@ func catchError(err error, desc string) {
   }
 }
 
-// returns true if path / file / folder exists
+// returns true if path exists
 func checkIfExists(path string) bool {
   _, err := os.Stat(path)
   return os.IsNotExist(err)

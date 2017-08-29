@@ -1,0 +1,7 @@
+<http://id.ukpds.org/qnsCGpnw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/MemberImage> .
+<http://id.ukpds.org/qnsCGpnw> <http://id.ukpds.org/schema/memberImageHasMember> <http://id.ukpds.org/9GUN7QNU> .
+<http://id.ukpds.org/9GUN7QNU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
+<http://id.ukpds.org/9GUN7QNU> <http://id.ukpds.org/schema/personGivenName> "Heidi" .
+<http://id.ukpds.org/9GUN7QNU> <http://id.ukpds.org/schema/personFamilyName> "Alexander" .
+<http://id.ukpds.org/9GUN7QNU> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "Heidi Alexander" .
+<http://id.ukpds.org/9GUN7QNU> <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> "Alexander, Heidi" .

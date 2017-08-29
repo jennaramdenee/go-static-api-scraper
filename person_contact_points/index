@@ -1,0 +1,16 @@
+<http://id.ukpds.org/7KNGxTli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
+<http://id.ukpds.org/7KNGxTli> <http://id.ukpds.org/schema/personGivenName> "Theresa" .
+<http://id.ukpds.org/7KNGxTli> <http://id.ukpds.org/schema/personFamilyName> "May" .
+<http://id.ukpds.org/7KNGxTli> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "Mrs Theresa May" .
+<http://id.ukpds.org/7KNGxTli> <http://id.ukpds.org/schema/memberHasIncumbency> <http://id.ukpds.org/o02UYaRh> .
+<http://id.ukpds.org/o02UYaRh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Incumbency> .
+<http://id.ukpds.org/o02UYaRh> <http://id.ukpds.org/schema/incumbencyHasContactPoint> <http://id.ukpds.org/9j943FFb> .
+<http://id.ukpds.org/9j943FFb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ContactPoint> .
+<http://id.ukpds.org/9j943FFb> <http://id.ukpds.org/schema/email> "mayt@parliament.uk" .
+<http://id.ukpds.org/9j943FFb> <http://id.ukpds.org/schema/phoneNumber> "020 7219 5206" .
+<http://id.ukpds.org/9j943FFb> <http://id.ukpds.org/schema/faxNumber> "020 7219 1145" .
+<http://id.ukpds.org/9j943FFb> <http://id.ukpds.org/schema/contactPointHasPostalAddress> <http://id.ukpds.org/PV32QgdT> .
+<http://id.ukpds.org/PV32QgdT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/PostalAddress> .
+<http://id.ukpds.org/PV32QgdT> <http://id.ukpds.org/schema/addressLine1> "House of Commons" .
+<http://id.ukpds.org/PV32QgdT> <http://id.ukpds.org/schema/addressLine2> "London" .
+<http://id.ukpds.org/PV32QgdT> <http://id.ukpds.org/schema/postCode> "SW1A 0AA" .
